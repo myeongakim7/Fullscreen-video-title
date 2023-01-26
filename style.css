@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* *<에 폰트넣으면 안됨  */
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+#bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  /* 꽉 차게 */
+  min-width: 100%;
+  min-height: 100%;
+  /* ★min값으로 해야 배경이 꽉 참★ */
+}
+
+.content {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.558);
+  height: 100vh;
+  padding: 100px 60px;
+}
+.content h1 {
+  margin-bottom: 1em;
+}
+.content p {
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+.btn {
+  background-color: #fff;
+  padding: 12px 30px;
+  border-style: none;
+  margin: 5px;
+  margin-left: 0;
+}
